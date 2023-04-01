@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">             
+<!-- Written By Adam Ward -->
+<!--      09/03/2021      -->
+<!--Link to CSS Style sheet-->
+<link rel="stylesheet" href="style.css">
+<!--Favicon Link-->
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+<!--Link to font from googlefonts-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap" rel="stylesheet"> 
+<script src="./js/validation.js"></script>
+<title>Contact Us</title>
+    </head>
+    <body>
+        <!--Logo-->
+        <img src="images/favicon.ico" alt="a happy snail">
+        <h2>Happy Snail Photography</h2>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <!--Active page class highlighting the current page -->
+            <li><a href="contactus.html" class="active-page">Contact Us</a></li>
+        </ul>
+        <!--Contact Us Form-->
+        <fieldset>
+            <legend>Contact Us</legend>
+            <!--Calls the validateform script on submition-->
+                <form name="contactform" onsubmit="return validateForm()" method="post">
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="fname" size="25" placeholder="Ben"><br><br>   
+            
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lname" size="25" placeholder="Green"><br><br>
+            
+                    <label for="age">Age: 
+                    <input type="number" id="age" name="age" placeholder="18"></label><br><br>
+            
+                    <label for="teleno">Telephone Number:</label>
+                    <input type="tel" id="teleno" name="teleno" size="20" placeholder="1234567890"><br><br>
+            
+                    <label for="email"> Email Address:</label>
+                    <input type="email" id="email" name="email" size="50" placeholder="Example@email.com"><br><br>
+
+                <label for="feedback">Comment:</label>
+                <textarea id="feedback" name="feedback" rows="6" cols="70" placeholder="Tell us what you think!" required></textarea>
+                <br><br>
+                <!--Opens dialog box to get the user to confirm their selection-->
+                <input type="submit" value="Submit" onclick="return confirm('Are you sure you want to submit?')">
+                <input type="reset" value="Reset All" onclick="return confirm('Are you sure you want to reset?')">
+                </form>
+            </fieldset>
+    <!-- Footer Containing Copyright Info-->
+    <footer>
+        <h3>Written By Adam Ward for COM109</h3>
+        <h3>Copyright 2021</h3>
+    </footer>
+    </body>
+</html>

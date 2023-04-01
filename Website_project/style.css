@@ -1,0 +1,246 @@
+@charset "UTF-8";
+h1{
+    text-align: center;
+    font-family: 'Heebo', sans-serif;
+    text-decoration: underline;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Heebo', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+}
+
+h3{
+    text-align: left;
+    font-family: 'Heebo', sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+h4{ 
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Heebo', sans-serif;
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+h6{
+    text-align: left;
+    font-family: 'Heebo', sans-serif;
+    font-size: 100%;
+    text-decoration:underline;
+    font-weight: 100;
+}
+/* styles for headings used throught the website */
+p{
+    text-align: center;
+    font-family: 'Heebo', sans-serif;
+}
+/* style used for paragraph elements in the website ensuring the same font is used throughout*/
+
+img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 2.5%;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+/* image formatting ensuring the background image fits the height of each page displayed */
+footer{
+    text-align: left;
+    float: left;
+    padding: 3px;
+    width: 100%;
+    background-color:#486a97 ;
+    border-radius: 25px;
+    margin-top: 2%;
+    display: block;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #233e61;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    font-family: 'Heebo', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 1%;
+    
+}
+
+li{
+    float:none;
+    display: inline-block;
+}
+
+li a{
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-width: 1px;
+    border-style: solid;
+}
+
+ul li a.active-page{
+    background-color:#233e61 ;
+
+}
+
+li a:hover{
+    background-color:#486a97;
+}
+/* styles used for the navbar making use of ul and li elements*/
+body{
+    background-color: #ffffff;
+    background-image: url(images/back.jpg);
+    background-size: cover;
+}
+/* formatting for the background image*/
+form{
+    background-color:#486a97;
+    border-style: solid;
+    border-color: #233e61;
+    color: #ffffff;
+    text-align: left;
+    font-family: 'Heebo', sans-serif;
+    text-decoration: none;
+    background-color: #486a97;
+    border-radius: 25px;
+    border-style: none;
+    padding: 1%;
+}
+
+button{
+    font-family: 'Heebo', sans-serif;
+    text-decoration: none;
+}
+legend{
+    font-family: 'Heebo', sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #233e61;
+    border-radius: 25px;
+}
+
+textarea{
+    width: 90%;
+    font-family: 'Heebo', sans-serif;
+}
+
+fieldset{
+    font-family: 'Heebo', sans-serif;
+    background-color: #233e61;
+    border-radius: 25px;
+    border-style: none;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+    margin-top: 40px;
+}
+/* styles used to design the contact us form */
+.sidebar{
+    position: fixed;
+    z-index: 1;
+    top: 10px;
+    right: 10px;
+    background-color: #486a97;
+    float: right;
+    border-radius: 25px;
+    padding: 25px;
+    height: 475px;
+    width: 15%;
+    border-style: solid;
+    border-color: #233e61;
+}
+
+.sidebar a.active-page{
+    background-color:#233e61 ;
+
+}
+
+.sidebar a:hover{
+    background-color:#486a97;
+
+}
+
+.sidebar a.active-page{
+    background-color:#233e61 ;
+
+}
+
+.sidebar a:hover{
+    background-color:#486a97;
+
+}
+/* styles for the sidebar, including a different color for when the mouse is hovering as well as a darker color for the active page */
+.header{
+    height: 150px;
+    padding-bottom: 1%;
+}
+
+.homecontent{
+    padding: 50px;
+    height: 800px;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content{
+    float: left;
+    width: 35%;
+    background-color: #486a97;
+    border-radius: 25px;
+    padding: 25px;
+    height: 850px;
+    margin: 25px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #233e61;
+}
+
+a:visited{
+    text-decoration: none;
+    color: #ffffff;
+}
+/* used to prevent clicked links from turning purple, mainly in the sidebar where the #top shortcut was used */
+
+.project{
+    float: left;
+    width: 35%;
+    background-color:#486a97 ;
+    border-radius: 25px;
+    padding: 25px;
+    margin: 25px;
+    margin-top: 75px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #233e61;
+}
+
+.about{
+    float: left;
+    width: 75%;
+    background-color:#486a97 ;
+    border-radius: 25px;
+    padding: 25px;
+    margin: 25px;
+    margin-top: 75px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #233e61;
+}
+
+/* styles for div elements, ensuring to keep with the color scheme throughout the website */
